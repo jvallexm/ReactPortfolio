@@ -1,4 +1,5 @@
 import React from 'react';
+import ProjectFooter from './ProjectFooter';
 
 const ProjectAbout = (props) =>{
     return(
@@ -9,6 +10,8 @@ const ProjectAbout = (props) =>{
                     <div className="text-center">
                         <p className="project-p">{props.text}</p>
                     </div>
+                    <ProjectFooter gh   = { props.gh   }
+                                   site = { props.site } />
                     
               </div>                           
        </div>

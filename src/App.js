@@ -37,13 +37,13 @@ class App extends React.Component{
 
           <div className="project-background">
 
-          <Project  bg     = {"message"}
-                    isLeft = {true}
-                    title  = {"Anonymous Message Board"}
-                    text   = {aboutMessageBoard}
-                    site   = {"https://jvalle-message-board.herokuapp.com/"}
-                    gh     = {"https://github.com/jvallexm/message-board"}
-                    img    = {"assets/images/message.png"}/>
+          <Project  isLeft = {true}
+                    bg     = {"pins"}
+                    title  = {"Quizfeed"}
+                    text   = {aboutQuizfeed}
+                    site   = {"https://quizfeed.herokuapp.com/"}
+                    gh     = {"https://github.com/jvallexm/quizfeed"}
+                    img    = {"assets/images/quizfeed.png"}/>
           
           <Project  isLeft = {false}
                     bg     = {"books"}
@@ -52,14 +52,15 @@ class App extends React.Component{
                     gh     = {"https://github.com/jvallexm/okwhatever"}
                     site   = {"https://okwhatever.herokuapp.com/"}
                     img    = {"assets/images/okwhatever.png"}/>
-          <Project  isLeft = {true}
-                    bg     = {"pins"}
-                    title  = {"React-trest"}
-                    text   = {aboutPinterestClone}
-                    site   = {"https://jvalle-pinterest-clone.herokuapp.com/"}
-                    gh     = {"https://github.com/jvallexm/fcc-pinterest-clone"}
-                    img    = {"assets/images/pins.png"}/>
-          
+
+          <Project  bg     = {"message"}
+                    isLeft = {true}
+                    title  = {"Anonymous Message Board"}
+                    text   = {aboutMessageBoard}
+                    site   = {"https://jvalle-message-board.herokuapp.com/"}
+                    gh     = {"https://github.com/jvallexm/message-board"}
+                    img    = {"assets/images/message.png"}/>
+
           </div>
 
           <ParallaxHeader bgImage={"assets/backgrounds/gce.jpg"}
@@ -101,7 +102,7 @@ class App extends React.Component{
 }
 
 
-const aboutPinterestClone=`Back end created with Node.js and Express and a MongoDB database to post and User Data. Utilizes a React.js front and and Masonry.js to create a dynamic grid. Socket.io provides users with live updates of new posts, likes, and reblogs`;
+const aboutQuizfeed=`Back end created with Node.js and Express and a MongoDB database to post and User Data. Utilizes a React.js front end and React-Router for dynamic page routes and login authentication with Google. Users can take, comment on, and create thier own customizable personality tests and quizzes.`;
 
 const aboutBookSwap=`Created by an Agile development team, Ok Whatever uses a Node.js and Express back end and creates dynamic pages using Handlebars.js and a MySQL database. Users can create accounts with Google, view matches, send messages, and get live message updates from Socket.io`;
 

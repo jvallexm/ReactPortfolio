@@ -29,17 +29,17 @@ class SocialMedia extends React.Component{
 
                                     <div id="gce-buttons">
                                     
-                                        <button className="btn btn-header"
+                                        <button className="btn btn-header btn-gce"
                                                 onClick={()=>window.open("http://www.facebook.com/geekcraftexpo")}
                                                 title={"GeekCraft Expo on Facebook"}>
                                             <i className="fa fa-facebook"/>
                                         </button>   
-                                        <button className="btn btn-header"
+                                        <button className="btn btn-header btn-gce"
                                                 onClick={()=>window.open('https://www.instagram.com/geekcraftexpo/')}
                                                 title={"GeekCraft Expo on Instagram"}>
                                             <i className="fa fa-instagram"/>
                                         </button>
-                                        <button className="btn btn-header"
+                                        <button className="btn btn-header btn-gce"
                                                 onClick={()=>window.open('https://twitter.com/geekcraftexpo')}
                                                 title={"GeekCraft Expo on Twitter"}>
                                             <i className="fa fa-twitter"/>

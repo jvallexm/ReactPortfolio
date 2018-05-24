@@ -1,7 +1,6 @@
 import React           from 'react';
 import ProjectImage    from './ProjectImage';
 import ProjectAbout    from './ProjectAbout';
-import ProjectFooter   from './ProjectFooter';
 import './Project.css'
 
 const Project = (props) =>{
@@ -10,10 +9,10 @@ const Project = (props) =>{
 
       <section className="text-center container-fluid project-main">        
 
-        <div className="text-center container-fluid project-content panel panel-default">
+        <div className="text-center container-fluid project-content panel panel-primary">
                   
           <div className="panel-heading">
-            <h1>{props.title}</h1>
+            <h1 className="project-title">{props.title}</h1>
           </div>
 
           <div className="panel-body">
@@ -32,7 +31,9 @@ const Project = (props) =>{
 
                   <ProjectAbout isLeft = { props.isLeft }
                                 title  = { props.title  }
-                                text   = { props.text   } />       
+                                text   = { props.text   } 
+                                gh     = { props.gh   }
+                                site   = { props.site }/>       
                 </div>
               
               : <div className="row">
@@ -41,7 +42,9 @@ const Project = (props) =>{
 
                   <ProjectAbout isLeft = { props.isLeft }
                                 title  = { props.title  }
-                                text   = { props.text   } /> 
+                                text   = { props.text   } 
+                                gh   = { props.gh   }
+                                site = { props.site }/> 
 
                   <ProjectImage img   = { props.img   }
                                 alt   = { props.title }
@@ -54,8 +57,7 @@ const Project = (props) =>{
           
           </div>
           
-          <ProjectFooter gh   = { props.gh   }
-                         site = { props.site } />
+
 
 
         </div>

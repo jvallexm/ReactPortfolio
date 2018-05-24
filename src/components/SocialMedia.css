@@ -7,6 +7,10 @@
   max-width: 900px; 
   
 }
+.btn-gce{
+  background-color: rgba(63,187,145);
+  color: white;
+}
 .gce-green{
   padding-top: 50px;
   padding-bottom: 50px;
@@ -21,7 +25,7 @@
 }
 
 .sec-content{
-  max-width: 800px;
+  max-width: 900px;
 }
 .filter{
   background-color: rgba(255,255,255,.95);

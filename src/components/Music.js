@@ -19,19 +19,19 @@ class Music extends React.Component{
                         
                         <div className="row">
                             
-                            <div className="col-sm-6 min-300 middle-text">
+                            <div className="col-sm-6 min-300 middle-text cont">
 
                                { 
                                 this.state.src === null
                                 ?  <div>
-                                        <h3 style={{color: 'black'}}>Click Buttons to Play <i className="fa fa-arrow-right"/></h3>
+                                        <h3 style={{color: 'black'}}>Click Buttons to Play</h3>
                                     </div>
-                                : <iframe title="The KKK Took My Baby Away" src={this.state.src}/> 
+                                : <iframe title="Music" src={this.state.src}/> 
                                 }
 
                             </div>
 
-                            <div className="col-sm-6">
+                            <div className="col-sm-6 cont">
 
                                <div id="music-text" style={{minHeight: '300px'}}className="text-left middle-text">
 

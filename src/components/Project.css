@@ -22,7 +22,7 @@
 }
 
 .project-p{
-    font-size: 120%;
+    font-size: 150%;
 }
 
 .project-text{
@@ -31,10 +31,7 @@
 }
 
 .project-title{
-    position: absolute;
-    top:0;
-    width: 100%;
-    text-align: center;
+    text-shadow: 2px 2px 2px black;
 }
 
 .project-links{
@@ -63,3 +60,23 @@
     top: 0;
     left: 0;
   }
+
+.primary{
+    background-color: rgb(66,139,202);
+    color: white;
+}
+.btn-project{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin: 0px 3px 0px 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+    font-size: 110%;
+}
+
+.panel{
+
+    box-shadow: 2px 2px 2px #AAAAAA !important;
+
+}
