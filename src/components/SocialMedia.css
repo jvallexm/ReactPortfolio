@@ -1,0 +1,52 @@
+/* GeekCraft Expo Styles */
+
+#gce
+{
+  color: white;
+  padding: 10px;
+  max-width: 900px; 
+  
+}
+.gce-green{
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  /* Pattern from http://lea.verou.me/css3patterns/#tablecloth */
+  background-color:white;
+  background-image: linear-gradient(90deg, rgba(63,187,145,.5) 50%, transparent 50%),
+  linear-gradient(rgba(63,187,145,.5) 50%, transparent 50%);
+  background-size:50px 50px;
+  z-index: 3;
+
+}
+
+.sec-content{
+  max-width: 800px;
+}
+.filter{
+  background-color: rgba(255,255,255,.95);
+  min-height: 200px;
+  border-radius: 5px;
+  padding: 20px;
+}
+.sec-title{
+    margin-top: 0px;
+    text-shadow: 3px 3px 3px black;
+}
+#gce-video{
+  max-height: 300px;
+  width: 400px;
+  background-color: black;
+}
+#gce-text{
+  color: black;
+}
+.gce-p{
+  font-size: 110%;
+}
+img{
+    width: 100%;
+}
+.squish{
+    height: 100%;
+}

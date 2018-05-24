@@ -1,0 +1,13 @@
+/* About Styles */
+
+#about{
+    max-width: 700px;
+    padding: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+  }
+  .about-text{
+    font-family: "Vidaloka";
+    font-size: 125%;
+  }

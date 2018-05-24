@@ -1,0 +1,65 @@
+
+.project-main{
+    position: relative;
+}
+.project-content{
+    border-radius: 5px;
+    max-width: 900px;
+    padding: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+    box-shadow: 3px 3px 3px #AAAAAA;
+}
+
+.proj-col{
+    padding: 0px; 
+}
+  
+.project{
+    min-height: 300px;
+    width: 100%;
+}
+
+.project-p{
+    font-size: 120%;
+}
+
+.project-text{
+    padding: 10px;
+    font-size: 145%;
+}
+
+.project-title{
+    position: absolute;
+    top:0;
+    width: 100%;
+    text-align: center;
+}
+
+.project-links{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+}
+
+.project-img{
+    min-height: 300px;
+}
+  
+.tall{
+    min-height: 500px;
+}
+
+.body-padding{
+    padding: 0px 10px 0px 10px;
+}
+.an-shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0px 0px 10px 0 #000000;
+    top: 0;
+    left: 0;
+  }
