@@ -67,7 +67,7 @@ class App extends React.Component{
                           bgImageAlt="GeekCraft Expo"
                           strenth={500}
                           blur="0"
-                          bgStyle={{marginTop: "-200px"}}  />
+                          bgStyle={{marginTop: "-200px", minHeight: "800px"}}  />
           {/* Social Media */}
           <div className="gce-green">
             <SocialMedia />
